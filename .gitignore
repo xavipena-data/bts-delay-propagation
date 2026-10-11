@@ -1,0 +1,7 @@
+# Data (too large for Git, reproducible with the scripts)
+data/
+
+# Python
+.venv/
+__pycache__/
+.ipynb_checkpoints/
