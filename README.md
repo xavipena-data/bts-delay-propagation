@@ -53,18 +53,21 @@ Mean padding stays between 5.7 and 8.3 minutes through the day while on-time rat
 - Delay causes are reported by airlines following BTS conventions.
 
 ## Repository structure
+
+```
 bts-delay-propagation/
-├── data/ # not versioned: raw ZIPs and Parquet files
-├── figures/ # charts used in this README
+├── data/                  # not versioned: raw ZIPs and Parquet files
+├── figures/               # charts used in this README
 ├── notebooks/
-│ ├── 01_data_quality.ipynb
-│ ├── 02_rotations.ipynb
-│ ├── 03_schedule_padding.ipynb
-│ └── 04_link_axes.ipynb
+│   ├── 01_data_quality.ipynb
+│   ├── 02_rotations.ipynb
+│   ├── 03_schedule_padding.ipynb
+│   └── 04_link_axes.ipynb
 ├── src/
-│ └── 01_csv_to_parquet.py
+│   └── 01_csv_to_parquet.py
 ├── requirements.txt
 └── README.md
+```
 
 
 ## Reproduce
